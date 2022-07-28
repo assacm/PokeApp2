@@ -12,4 +12,5 @@ export class PAlakazamPage implements OnInit {
   ngOnInit() {
   }
 
+
 }
