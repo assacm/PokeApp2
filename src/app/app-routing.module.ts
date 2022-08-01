@@ -108,10 +108,6 @@ const routes: Routes = [
     loadChildren: () => import('./region-kalos/region-kalos.module').then( m => m.RegionKalosPageModule)
   },
   {
-    path: 'region-alola',
-    loadChildren: () => import('./region-alola/region-alola.module').then( m => m.RegionAlolaPageModule)
-  },
-  {
     path: 'region-galar',
     loadChildren: () => import('./region-galar/region-galar.module').then( m => m.RegionGalarPageModule)
   },
@@ -126,6 +122,14 @@ const routes: Routes = [
   {
     path: 'region-islas-decolora',
     loadChildren: () => import('./region-islas-decolora/region-islas-decolora.module').then( m => m.RegionIslasDecoloraPageModule)
+  },
+  {
+    path: 'pokeinfo',
+    loadChildren: () => import('./pokeinfo/pokeinfo.module').then( m => m.PokeinfoPageModule)
+  },
+  {
+    path: 'regioninfo/:id',
+    loadChildren: () => import('./regioninfo/regioninfo.module').then( m => m.RegioninfoPageModule)
   }
 ];
 

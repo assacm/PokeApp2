@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { RegionAlolaPage } from './region-alola.page';
+import { PokeinfoPage } from './pokeinfo.page';
 
-describe('RegionAlolaPage', () => {
-  let component: RegionAlolaPage;
-  let fixture: ComponentFixture<RegionAlolaPage>;
+describe('PokeinfoPage', () => {
+  let component: PokeinfoPage;
+  let fixture: ComponentFixture<PokeinfoPage>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ RegionAlolaPage ],
+      declarations: [ PokeinfoPage ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(RegionAlolaPage);
+    fixture = TestBed.createComponent(PokeinfoPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

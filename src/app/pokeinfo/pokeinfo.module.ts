@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { RegionAlolaPageRoutingModule } from './region-alola-routing.module';
+import { PokeinfoPageRoutingModule } from './pokeinfo-routing.module';
 
-import { RegionAlolaPage } from './region-alola.page';
+import { PokeinfoPage } from './pokeinfo.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    RegionAlolaPageRoutingModule
+    PokeinfoPageRoutingModule
   ],
-  declarations: [RegionAlolaPage]
+  declarations: [PokeinfoPage]
 })
-export class RegionAlolaPageModule {}
+export class PokeinfoPageModule {}

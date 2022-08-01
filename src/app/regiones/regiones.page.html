@@ -5,5 +5,17 @@
 </ion-header>
 
 <ion-content>
-
+  <ion-list>
+    <ion-list-header>
+      <h2><strong> Elige una región</strong></h2>
+    </ion-list-header> 
+    
+    <ion-item   *ngFor="let region of regiones" [routerLink]="['/regioninfo', region.id]" >
+      <ion-icon name="locate-outline"></ion-icon>
+      <ion-label >
+        <h2> <b> {{region.nombre}}</b></h2>        
+      </ion-label>
+    </ion-item>
+  </ion-list>
+    
 </ion-content>

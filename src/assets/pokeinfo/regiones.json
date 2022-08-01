@@ -1,0 +1,53 @@
+ {
+    "region" : [
+    {   "id":0,
+        "nombre" : "Kanto",
+        "descripcion":"Kanto es una región del mundo Pokémon situada al este de Johto y al sur de Sinnoh. Kanto es una de las regiones con menos cuevas y montañas, entre ellas destaca la Cueva Diglett por sus características. La gran mayoría de las ciudades tiene nombres de colores: Ciudad Verde, Ciudad Carmín, Ciudad Celeste, etc., siendo la más importante por excelencia Ciudad Azafrán, pues en ella se encuentra la sede del centro empresarial más importante de la región, Silph S.A..",
+        "ruta" :" assets/pokeimages/Mapa_Kanto.webp"
+
+    },
+    {   "id": 1,
+        "nombre" : "Johto",
+        "descripcion":"Johto es una región del mundo Pokémon situada al oeste de Kanto. Es una región casi llana con una meseta al este y un sistema montañoso al noreste en el cual la cima más alta es el Mt. Plateado. Johto posee mucho más campo y zonas rurales, además de que gran parte de sus ciudades son poblados rurales (concretamente en los videojuegos). De hecho, Ciudad Trigal y Ciudad Olivo son una de las pocas áreas industrializadas o de cierto modernismo.",
+        "ruta" :" assets/pokeimages/Johto_HGSS.webp"
+
+    },
+    {    "id":2,
+        "nombre" : "Hoenn",
+        "descripcion" :"Hoenn es la primera región en contar con zonas de diferente clima. De entre sus ciudades, resulta quizá la más llamativa ciudad Arborada, donde sus habitantes viven en las copas de los árboles y se especializan en Pokémon de tipo volador. Pero en orden de importancia, las ciudades por excelencia son ciudad Portual y ciudad Calagua, siendo esta la más grande. Las rutas empiezan a numerarse desde la ruta 101 hasta la ruta 134, es decir, la región está atravesada por 34 rutas. Los entrenadores Pokémon que empiezan su aventura en esta región pueden elegir entre los Pokémon iniciales, Treecko, Torchic y Mudkip.",
+        "ruta" :" assets/pokeimages/Mapa_de_Hoenn.webp"
+
+    },
+    {   "id": 3,
+        "nombre" : "Sinnoh",
+        "descripcion" :"Sinnoh es la región más grande y, al igual que sucede con la región de Hoenn, sus ciudades y pueblos no siguen una regla general a la hora de nombrarse; como sí sucede en regiones como Kanto y Johto. La capital es Ciudad Jubileo, donde se concentran algunos de los edificios más importantes, como la Estación de Intercambio Global (GTS), la sede de Jubileo TV o Poké-reloj S.A.. La región de Sinnoh, presenta una cantidad de climas muy variados pero predominan los fríos, incluyendo por primera vez nieve en el mundo Pokémon (zona colindante a Ciudad Puntaneva). La región es mayormente terrestre, con solo cinco rutas marinas. Tres de éstas se consideran lagos, El Lago Valor, Lago Veraz y Lago Agudeza donde podremos encontrar a Pokémon legendarios (los cuales son Mesprit, Azelf y Uxie). Sinnoh es una región con un gran número de accidentes geográficos, prueba de ello es el Monte Corona que atraviesa toda la región dividiéndola en dos.",
+        "ruta": "assets/pokeimages/Sinnoh.webp"
+
+    },
+    {   "id": 4,
+        "nombre" : "Teselia",
+        "descripcion" :"Se aprecia que en Teselia, con respecto a las demás regiones del mundo Pokémon, hay ciudades mucho más modernas. Por ejemplo, en Ciudad Porcelana, existen grandes edificios. Esta región tiene mucho que ver con la construcción, ya que los nombres de los lugares se refieren a los materiales y los procesos de la cerámica: Pueblo Arcilla, Ciudad Porcelana, Ciudad Teja, Bosque Azulejo, etc. Es una región con paisajes muy diversos ya que se pueden observar una ciudad industrial, un desierto, varias montañas (algunas de ellas nevadas), pueblos pequeños igual que en las demás regiones y hasta un parque de atracciones con una noria y una montaña rusa, que es el Gimnasio Pokémon.",
+        "ruta" :" assets/pokeimages/Teselia.webp"
+
+    },
+    {   "id": 5,
+        "nombre" : "Kalos",
+        "descripcion" :"Kalos posee una misteriosa apariencia semejante a una estrella y que recuerda a Francia. Muchos lugares de la región reflejan esta inspiración en el país galo: además del paralelismo entre Luminalia y París y la Torre Prisma y la Torre Eiffel, la ruta 7 se relaciona con el Valle de Loira, el Palacio Cénit con el Palacio de Versalles, el Castillo Caduco (en pueblo Vánitas) con el Castillo de Chambord, la ruta 10 con los alineamientos de Carnac, la Torre Maestra con el Monte Saint-Michel y ciudad Témpera con Le Havre. Por lo demás, Kalos está rodeada de agua por todas partes excepto por el este. En el centro se halla ciudad Luminalia, la ciudad más grande de la región, una metrópolis repleta de vida y clientes que visitan su infinidad de tiendas. Desde una icónica torre ubicada en el centro de la ciudad se extienden numerosas calles.",
+        "ruta" :" assets/pokeimages/Mapa_Kalos.webp"
+
+    },
+    {   "id": 6,
+        "nombre" : "Alola",
+        "descripcion" :"Alola es una región organizada en cuatro islas principales, bastante alejadas de las otras regiones conocidas. Estas islas poseen exuberante vegetación tropical y playas. Algunas poseen volcanes y ciudades en las costas. También cuenta con una pequeña isla artificial y algunos islotes.",
+        "ruta" : "assets/pokeimages/Alola.webp"
+
+    },
+    {   "id": 7,
+        "nombre" : "Galar",
+        "descripcion" :"Se trata una enorme región con una variedad de entornos: idílicas zonas rurales, modernas ciudades, bosques frondosos y escarpadas montañas cubiertas de nieve. Humanos y Pokémon viven juntos en esta región y trabajan codo con codo para desarrollar su industria. La cultura de la región es que los combates Pokémon son la forma de entretenimiento por excelencia y a diferencia de otras regiones, en Galar los combates tienen un acercamiento más deportivo. Los Aspirantes miden sus fuerzas contra los Líderes de Gimnasio en combates Pokémon que se llevan a cabo en los estadios distribuidos por todo Galar. Siempre que se celebra un combate, los estadios se llenan de multitudes de espectadores y fans que acuden a animar a sus Entrenadores favoritos.",
+        "ruta" : "assets/pokeimages/Galar.webp"
+
+    }
+]
+
+ }
