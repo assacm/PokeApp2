@@ -9,13 +9,15 @@ import { Router } from '@angular/router';
 })
 export class RegionesPage implements OnInit {
    regiones : any =[];
+   
   constructor( private router: Router, private http: HttpClient) { }
 
   ngOnInit() {
   this.getRegiones().subscribe( 
     res =>{ console.log("res: ", res) 
     this.regiones = res;
-          })
+           
+  })
   }
   
   getRegiones(){

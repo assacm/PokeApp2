@@ -1,9 +1,23 @@
-<ion-header>
+
+<ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>pokeinfo</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Pokemon</ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content>
-
+  
+  <ion-card>
+    <ion-card-header>
+      <img src="{{ruta}}" />
+      <ion-card-title>{{nombre}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <div>{{descripcion}}</div>
+      <div> <ion-button >{{region}} </ion-button></div>
+      
+    </ion-card-content>
+  </ion-card>
 </ion-content>

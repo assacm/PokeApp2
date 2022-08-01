@@ -1,6 +1,9 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title><h1>Pokemon</h1></ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Pokemón</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -11,164 +14,16 @@
         <h2><strong> Elige un Pokemón</strong></h2>
       </ion-list-header> 
       
-      <ion-item (click)="pikapage()">
+      <ion-item  *ngFor="let poke of pokemons" [routerLink]="['/pokeinfo', poke.id]">
         <ion-avatar slot="start">
-          <img src="../../assets/pokeimages/Pikachu_XY.webp">
+          <img src="{{poke.icono}}">
         </ion-avatar>
         <ion-label>
-          <h2><b>Pikachu</b></h2>
-          <img src="../../assets/pokeimages/Tipo_electrico.webp ">
-          
-        </ion-label>
-      </ion-item>
-      <ion-item (click)="alakazamp()">
-        <ion-avatar slot="start">
-          <img src="../../assets/pokeimages/Alakazam_XY.webp">
-        </ion-avatar>
-        <ion-label>
-          <h2><b>Alakazam</b></h2>
-          <img src="../../assets/pokeimages/Tipo_psiquico.webp">
+          <h2><b>{{poke.nombre}}</b></h2>
+          <img src="{{poke.tipo[0]}}">
           
         </ion-label>
       </ion-item>
       
-      <ion-item (click)="bulbasaur()">
-        <ion-avatar slot="start">
-          <img src="../../assets/pokeimages/Bulbasaur_XY.webp">
-        </ion-avatar>
-        <ion-label>
-          <h2><b>Bulbasaur</b></h2>
-          <img src="../../assets/pokeimages/Tipo_planta.webp">
-          
-        </ion-label>
-      </ion-item>
-
-      <ion-item (click)="charmander()">
-        <ion-avatar slot="start">
-          <img src="../../assets/pokeimages/Charmander_XY.webp">
-        </ion-avatar>
-        <ion-label>
-          <h2><b>Charmander</b></h2>
-          <img src="../../assets/pokeimages/Tipo_fuego.webp">
-          
-        </ion-label>
-      </ion-item>
-      <ion-item (click)="Squirtle()">
-        <ion-avatar slot="start">
-          <img src="../../assets/pokeimages/Squirtle_XY.webp">
-        </ion-avatar>
-        <ion-label>
-          <h2><b>Squirtle</b></h2>
-          <img src="../../assets/pokeimages/Tipo_agua.webp">
-          
-        </ion-label>
-      </ion-item>
-      <ion-item (click)="butterfree()">
-        <ion-avatar slot="start">
-          <img src="../../assets/pokeimages/Butterfree_XY.webp">
-        </ion-avatar>
-        <ion-label>
-          <h2><b>Butterfree</b></h2>
-          <img src="../../assets/pokeimages/Tipo_bicho.webp">
-          <img src="../../assets/pokeimages/Tipo_volador.webp">
-        </ion-label>
-      </ion-item>
-     
-      <ion-item (click)="clefairy()">
-        <ion-avatar slot="start">
-          <img src="../../assets/pokeimages/Clefairy_XY.webp">
-        </ion-avatar>
-        <ion-label>
-          <h2><b>Clefairy</b></h2>
-          <img src="../../assets/pokeimages/Tipo_hada.webp">
-        </ion-label>
-      </ion-item>
-      
-      <ion-item (click)="meowth()">
-        <ion-avatar slot="start">
-          <img src="../../assets/pokeimages/Meowth_XY.webp">
-        </ion-avatar>
-        <ion-label>
-          <h2><b>Meowth</b></h2>
-          <img src="../../assets/pokeimages/Tipo_normal.webp">
-        </ion-label>
-      </ion-item>
-      
-      <ion-item (click)="onix()">
-        <ion-avatar slot="start">
-          <img src="../../assets/pokeimages/Onix_XY.webp">
-        </ion-avatar>
-        <ion-label>
-          <h2><b>Onix</b></h2>
-          <img src="../../assets/pokeimages/Tipo_roca.webp">
-          <img src="../../assets/pokeimages/Tipo_tierra.webp">
-        </ion-label>
-      </ion-item>
-
-      <ion-item (click)="magnamite()">
-        <ion-avatar slot="start">
-          <img src="../../assets/pokeimages/Magnemite_XY.webp">
-        </ion-avatar>
-        <ion-label>
-          <h2><b>Magnemite</b></h2>
-          <img src="../../assets/pokeimages/Tipo_electrico.webp">
-          <img src="../../assets/pokeimages/Tipo_acero.webp">
-        </ion-label>
-      </ion-item>
-      <ion-item (click)="gengar()">
-        <ion-avatar slot="start">
-          <img src="../../assets/pokeimages/Gengar_XY.webp">
-        </ion-avatar>
-        <ion-label>
-          <h2><b>Gengar</b></h2>
-          <img src="../../assets/pokeimages/Tipo_fantasma.webp">
-          <img src="../../assets/pokeimages/Tipo_veneno.webp">
-        </ion-label>
-      </ion-item>
-      <ion-item (click)="dragonite()">
-        <ion-avatar slot="start">
-          <img src="../../assets/pokeimages/Dragonair_XY.webp">
-        </ion-avatar>
-        <ion-label>
-          <h2><b>Dragonair</b></h2>
-          <img src="../../assets/pokeimages/Tipo_dragon.webp">
-        </ion-label>
-      </ion-item>
-      <ion-item (click)="snorlax()">
-        <ion-avatar slot="start">
-          <img src="../../assets/pokeimages/Snorlax_XY.webp">
-        </ion-avatar>
-        <ion-label>
-          <h2><b>Snorlax</b></h2>
-          <img src="../../assets/pokeimages/Tipo_normal.webp">
-        </ion-label>
-      </ion-item>
-      <ion-item (click)="togepi()">
-        <ion-avatar slot="start">
-          <img src="../../assets/pokeimages/Togepi_XY.webp">
-        </ion-avatar>
-        <ion-label>
-          <h2><b>Togepi</b></h2>
-          <img src="../../assets/pokeimages/Tipo_hada.webp">
-        </ion-label>
-      </ion-item>
-      <ion-item (click)="ditto()">
-        <ion-avatar slot="start">
-          <img src="../../assets/pokeimages/Ditto_XY.webp">
-        </ion-avatar>
-        <ion-label>
-          <h2><b>Ditto</b></h2>
-          <img src="../../assets/pokeimages/Tipo_normal.webp">
-        </ion-label>
-      </ion-item>
-      <ion-item (click)="Chikorita()">
-        <ion-avatar slot="start">
-          <img src="../../assets/pokeimages/Chikorita_XY.webp">
-        </ion-avatar>
-        <ion-label>
-          <h2><b>Chikorita</b></h2>
-          <img src="../../assets/pokeimages/Tipo_planta.webp">
-        </ion-label>
-      </ion-item>
     </ion-list>
 </ion-content>

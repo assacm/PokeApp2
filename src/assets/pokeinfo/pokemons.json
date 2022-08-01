@@ -5,157 +5,181 @@
                 "numero": "001" ,
                 "nombre" : "Bulbasaur",
                 "especie" : "Semilla",
-                "tipo" : ["Planta","Veneno"],
+                "tipo" : ["assets/pokeimages/Tipo_planta.webp","assets/pokeimages/Tipo_veneno.webp"],
                 "habilidad" : "Espesura",
                 "oculta" : "Clorofila",
                 "region": "Kanto",
                 "descripcion" : "Bulbasaur es un Pokémon de tipo planta/veneno introducido en la primera generación. Es uno de los Pokémon iniciales que pueden elegir los entrenadores que empiezan su aventura en la región Kanto. Este Pokémon tiene plantado un bulbo en el lomo desde que nace. Esta semilla crece y se desarrolla a lo largo del ciclo de vida de Bulbasaur a medida que suceden sus evoluciones. El bulbo de Bulbasaur le ayuda a defenderse de los enemigos y desde él puede disparar ataques tales como rayo solar y drenadoras entre otros." ,
-                "ruta" : "/assets/pokeimages/"
+                "ruta" : "/assets/pokeimages/Bulbasaur.webp",
+                "icono": "/assets/pokeimages/Bulbasaur_XY.webp"  
             },
             {    "id":1,
                 "numero": "004",
                 "nombre" : "Charmander",
                 "especie" : "Lagartija",
-                "tipo" : "Fuego",
+                "tipo" : ["assets/pokeimages/Tipo_fuego.webp"],
                 "habilidad" : "Mar llamas" ,
                 "oculta" : "Poder solar",
                 "region": "Kanto",
                 "descripcion" : "Charmander es un pequeño lagarto bípedo. Sus características de fuego son resaltadas por su color de piel anaranjado y su cola con la punta envuelta en llamas. tiene una pequeña llama en la punta de su cola. La intensidad con la que esta arde es un indicador del estado físico y emocional de este Pokémon. Cuando la intensidad de la llama está baja, su salud puede estar en riesgo. Cuando arde con normalidad, Charmander está saludable y alegre. Cuando la llama de su cola arde con más intensidad, es porque está enfadado, y si la llama de su cola se vuelve azul es porque encontró un rival fuerte y digno de él. Si la llama desaparece o se apaga, moriría." ,
-                "ruta" : "/assets/pokeimages/"
+                "ruta" : "/assets/pokeimages/Charmander.webp",
+                "icono": "/assets/pokeimages/Charmander_XY.webp"
             },
             {   "id": 2,
                 "numero": "024",
                 "nombre" : "Pikachu" ,
                 "especie" :"Ratón",
-                "tipo" : "Eléctrico" ,
+                "tipo" : ["assets/pokeimages/Tipo_electrico.webp"] ,
                 "habilidad" : "Electricidad estática",
                 "oculta" : "Pararrayos",
                 "region" : "Kanto",
                 "descripcion" : "Pikachu es un Pokémon de tipo eléctrico introducido en la primera generación. Pikachu almacena una gran cantidad de electricidad en sus mejillas. Estas parecen cargarse eléctricamente durante la noche mientras duerme. Las mejillas son las que generan electricidad, pero esta es conducida y descargada por la punta de su cola produciendo descargas eléctricas, que aumentan de poder dependiendo del estado de ánimo de Pikachu. Muchas veces, en las tormentas se juntan y absorben electricidad de los relámpagos.",
-                "ruta" : "/assets/pokeimages/" 
+                "ruta" : "/assets/pokeimages/Pikachu.webp",
+                "icono": "/assets/pokeimages/Pikachu_XY.webp"
             },
             {   "id": 3,
                 "numero" : "132",
                 "nombre" : "Ditto",
                 "especie" : "Transformación",
-                "tipo" : "Normal" ,
+                "tipo" : ["assets/pokeimages/Tipo_normal.webp"] ,
                 "habilidad" : "Flexibilidad",
                 "oculta" : "Impostor",
                 "region" : "Kanto",
                 "descripcion" : "Ditto es un Pokémon de tipo normal introducido en la primera generación. Su forma, semejante a la gelatina, y su ADN modificable a voluntad lo hacen un Pokémon excelente para criar, ya que puede reproducirse con casi cualquier Pokémon. Ditto tiene una de las más raras habilidades del mundo Pokémon: la transformación. Puede reorganizar su estructura celular en la de cualquier Pokémon cercano a él, para verse como tal y poder incluso usar sus habilidades. Puede hacerlo con cualquier Pokémon, sin importar su tamaño. Cuando un Ditto sonríe estando transformado, no puede mantener el cambio y lo pierde. Otra situación se presenta cuando son incapaces de copiar el tamaño del Pokémon objetivo, quedándose del tamaño normal. Algunos son capaces de transformarse en objetos inanimados que no tengan nada que ver con Pokémon.",
-                "ruta" : "/assets/pokeimages/"
+                "ruta" : "/assets/pokeimages/Ditto.webp",
+                "icono": "/assets/pokeimages/Ditto_XY.webp"
+
             },
             {    "id": 4,
                 "numero" : "175" ,
                 "nombre" : "Togepi",
                 "especie" : "Bola clavos",
-                "tipo" : "Hada",
-                "habilidad" : ["Entusiasmo", "Dicha"],
+                "tipo" : ["assets/pokeimages/Tipo_hada.webp"],
+                "habilidad" : "Entusiasmo, Dicha",
                 "oculta" : "Afortunado",
                 "region": "Johto",
                 "descripcion" : "Togepi es un Pokémon bebé de tipo hada introducido en la segunda generación. Sus características corresponden a una criatura adorable llena de alegría y optimismo. Elige a su entrenador al salir del huevo, del que nunca llega a separarse completamente. Se dice que su cascarón parece estar lleno de felicidad y que trae buena suerte cuando se le trata bien. Togepi siempre busca a personas con buen corazón y buenas intenciones.",
-                "ruta" : "/assets/pokeimages/"
+                "ruta" : "/assets/pokeimages/Togepi.webp",
+                "icono": "/assets/pokeimages/Togepi_XY.webp"
             },
             {   "id": 5,
                 "numero": "202",
                 "nombre" : "Wobbuffet",
                 "especie" :"Paciente",
-                "tipo" : "Psíquico",
+                "tipo" : ["assets/pokeimages/Tipo_psiquico.webp"],
                 "habilidad" : "Sombra trampa",
                 "oculta" : "Telepatía",
                 "region" : "Johto",
                 "descripcion" : "Wobbuffet es un Pokémon de tipo psíquico, particularmente conocido por su gran resistencia y su escasa capacidad para pelear en combates.  Es la evolución de Wynaut. Wobbuffet es conocido como el Pokémon que nunca ataca: sólo aguanta pacientemente los ataques del contrario, para devolvérselos con más poder.",
-                "ruta" : "/assets/pokeimages/"
+                "ruta" : "/assets/pokeimages/Wobbuffet.webp",
+                "icono": "/assets/pokeimages/Wobbuffet_XY.webp"
+
             }
             ,
             {   "id": 6,
                 "numero": "258" ,
-                "nombre" : "Mukdip",
+                "nombre" : "MudKip",
                 "especie" : "Pez Lodo",
-                "tipo" : "Agua",
+                "tipo" : ["assets/pokeimages/Tipo_agua.webp"],
                 "habilidad" : "Torrente",
                 "oculta" : "Humedad",
                 "region" : "Hoenn",
                 "descripcion" : "Mudkip es un Pokémon tipo agua introducido en la tercera generación. La cresta en la cabeza de Mudkip actúa como un radar altamente sensible. Esto le permite sentir los movimientos del agua y el aire, con lo que puede determinar qué es lo que ocurre a su alrededor sin usar sus ojos. En tierra, Mudkip puede levantar rocas grandes sujetando sus cuatro patas al suelo y haciendo palanca con la cabeza. Su larga cola le provee con una propulsión y dirección más que aceptables en el agua, haciendo que sea veloz como una bala de cañón al nadar. También puede usarla como un bate, endureciéndola, de este modo puede lanzar cosas muy lejos bateándolas.",
-                "ruta" : "/assets/pokeimages/"
+                "ruta" : "/assets/pokeimages/Mudkip.webp",
+                "icono": "/assets/pokeimages/Mudkip_XY.webp"
+
             }
             ,
             {   "id": 7,
                 "numero" : "347",
                 "nombre" : "Anorith",
                 "especie" :"Camarón",
-                "tipo" : ["Roca", "Bicho"] ,
+                "tipo" : ["/assets/pokeimages/Tipo_roca.webp", "/assets/pokeimages/Tipo_bicho.webp"] ,
                 "habilidad" : "Armadura de batalla",
                 "oculta" : "Nado rápido" ,
                 "region": "Hoenn",
                 "descripcion" : "Anorith es un Pokémon de tipo roca/bicho introducido en la tercera generación. Se trata de un Pokémon fósil que solo se puede obtener reviviéndolo a partir de un fósil garra. Anorith se regeneró a partir de un fósil prehistórico. Tiene cuatro alas a cada lado de su cuerpo que se ajustan perfectamente a su modo de vida en el mar, gracias a ellas pudo nadar por las primeras aguas que hubo. Usa sus pinzas para cazar a sus presas, que se esconden en las rocas del mar. Posee dos manchas rojas en su cabeza, que a primera vista, parecen ojos dándole un semblante agresivo que espanta a los depredadores o al peligro, viéndolo con atención, se puede apreciar que sus ojos son saltones y redondos.",
-                "ruta" : "/assets/pokeimages/"
+                "ruta" : "/assets/pokeimages/Anorith.webp",
+                "icono": "/assets/pokeimages/Anorith_XY.webp"
+
             },
             {   "id": 8,
                 "numero": "448" ,
                 "nombre" : "Lucario",
                 "especie" : "Aura",
-                "tipo" : ["Lucha", "Acero"],
+                "tipo" : ["/assets/pokeimages/Tipo_lucha.webp", "/assets/pokeimages/Tipo_acero.webp"],
                 "habilidad" : "Impasible, Foco interno",
                 "oculta" : "Justiciero",
                 "region" : "Sinnoh",
                 "descripcion" : "Lucario es un Pokémon de tipo lucha/acero introducido en la cuarta generación. Es la evolución de Riolu. Lucario tiene una habilidad especial conocida como vista aural que le permite ver el aura de las personas y de los Pokémon, con lo que también puede detectar dónde se encuentran. Además, gracias a esta habilidad tiene un movimiento característico, llamado esfera aural, que nunca falla. Comprende el lenguaje humano, aunque aparentemente estas características no se dan en todos los Lucario desde el principio. En la parte superior de sus manos, Lucario tiene unos pinchos que se pueden transformar en unas grandes garras que usa para atacar.",
-                "ruta" : "/assets/pokeimages/" 
+                "ruta" : "/assets/pokeimages/Lucario.webp" ,
+                "icono": "/assets/pokeimages/Lucario_XY.webp"
+
             },
             {   "id": 9,
                 "numero": "487" ,
                 "nombre" : "Giratina" ,
                 "especie" : "Renegado",
-                "tipo" : ["Fantasma", "Dragón"],
+                "tipo" : ["/assets/pokeimages/Tipo_fantasma.webp", "/assets/pokeimages/Tipo_dragon.webp"],
                 "habilidad" : "Presión, Levitación",
                 "oculta" : "Telepatía",
                 "region": "Sinnoh",
                 "descripcion" : "Giratina es un Pokémon legendario de tipo fantasma/dragón introducido en la cuarta generación. Giratina es capaz de viajar a través de las dimensiones y controlarlas, además de que, al ir del Mundo Distorsión a otro como el Mundo Pokémon crea, al emitir un torbellino de su boca, un portal. Además controla la antimateria. En su forma origen, se adapta a la inestable gravedad y tiempo de su mundo, mientras que en el Mundo Pokémon cambia a su forma modificada debido a la gravedad y tiempo estable. Como uno puede imaginarse con otros Pokémon tipo fantasma, Giratina es capaz de usar ataques de dicho tipo, siniestro, psíquico y eléctrico. A diferencia de otros Pokémon tipo dragón, carece de la habilidad de emplear ataques tipo fuego y tipo hielo (a excepción de fuego fatuo, que es aprendido por la mayoría de los Pokémon tipo fantasma). Giratina es uno de los pocos Pokémon que puede aprender esfera aural por nivel. Su ataque característico es único ya que solo él lo aprende, es golpe umbrío, el cual implica que se teletransporte a una dimensión oscura y tenebrosa para luego reaparecer golpeando a su contrincante, aun si este usa protección o detección." ,
-                "ruta" : "/assets/pokeimages/" 
+                "ruta" : "/assets/pokeimages/Giratina_modificada.webp" ,
+                "icono": "/assets/pokeimages/Giratina_modificada_XY.webp"
+
             },
             {   "id": 10, 
                 "numero": "553",
                 "nombre" : "Krookodile",
                 "especie" : "Amenazador",
-                "tipo" : ["Tierra", "Siniestro"],
+                "tipo" : ["/assets/pokeimages/Tipo_tierra.webp", "/assets/pokeimages/Tipo_siniestro.webp"],
                 "habilidad" : "Intimidación, Autoestima",
                 "oculta" : "Irascible ",
                 "region": "Teselia",
                 "descripcion" : "Krookodile es un Pokémon de tipo tierra/siniestro introducido en la quinta generación. Es la forma evolucionada de Krokorok. Es un gran cazador de vista excelente, pero de todos modos recibe la ayuda de sus preevoluciones para poder cazar a sus presas, las cuales habitan en las arenas movedizas del desierto. Nunca deja que su presa se escape. Su mandíbula tiene suficiente fuerza como para morder casi lo que sea, incluso podría destrozar la carrocería de un coche. Sus ojos pueden magnificar las cosas que están lejos, al igual que un par de prismáticos. Puede ser muy protector con los Krokorok y los Sandile.",
-                "ruta" : "/assets/pokeimages/" 
+                "ruta" : "/assets/pokeimages/Krookodile.webp" ,
+                "icono": "/assets/pokeimages/Krookodile_XY.webp"
+
             },
             {   "id": 11,
                 "numero": "663",
                 "nombre" : "Talonflame",
                 "especie" : "Flamígero",
-                "tipo" : ["Fuego", "Volador"],
+                "tipo" : ["/assets/pokeimages/Tipo_fuego.webp", "/assets/pokeimages/Tipo_volador.webp"],
                 "habilidad" : "Cuerpo llama",
                 "oculta" : "Alas vendaval",
                 "region": "Kalos",
                 "descripcion" : "Talonflame es un Pokémon de tipo fuego/volador introducido en la sexta generación. Es la evolución de Fletchinder. Talonflame presenta una celeridad y una potencia de fuego increíbles. Se tira en picado sobre sus oponentes para luego atacarles con patadas devastadoras. Cuando el combate se torna más agresivo, su cuerpo desprende llamaradas mientras surca el cielo a una velocidad de vértigo. Talonflame es un Pokémon muy peligroso y agresivo cuando tiene hambre. Aunque si se le cuida desde que es un Fletchling puede ser muy cariñoso, e incluso puede dar la vida por su entrenador.",
-                "ruta" : "/assets/pokeimages/"
+                "ruta" : "/assets/pokeimages/Talonflame.webp",
+                "icono": "/assets/pokeimages/Talonflame_XY.webp"
+
             },
             {   "id": 12,
                 "numero": "808",
                 "nombre" : "Meltan",
                 "especie" : "Tuerca",
-                "tipo" : "Acero",
+                "tipo" : ["/assets/pokeimages/Tipo_acero.webp"],
                 "habilidad" : "Imán" ,
                 "oculta" : "No especificada" ,
                 "region": "Alola",
                 "descripcion" : "Meltan es un Pokémon singular de tipo acero introducido en la séptima generación. Meltan es un pequeño Pokémon con una cabeza amarilla, que se parece a una tuerca hexagonal y posee un cuerpo plateado. Una esfera negra flota en el centro de su cabeza y actúa como ojo. Un pequeño cable rojo sobresale de su espalda. El cuerpo de Meltan está hecho de metal líquido. Esto permite a Meltan corroer cualquier metal a través de sus extremidades y absorberlo en su propio cuerpo. Además, Meltan genera energía eléctrica a partir del metal que absorbe; utiliza la electricidad como fuente de energía, así como para atacar, liberándola a partir de su ojo-proyector.",
-                "ruta" : "/assets/pokeimages/" 
+                "ruta" : "/assets/pokeimages/Meltan.webp",
+                "icono": "/assets/pokeimages/Meltan.webp"
+ 
             },
             {    "id":13,
                 "numero": "875" ,
                 "nombre" : "Eiscue",
                 "especie" : "No especificada",
-                "tipo" : "Hielo",
+                "tipo" : ["/assets/pokeimages/Tipo_hielo.webp"],
                 "habilidad" : "Cara hielo",
                 "oculta" : "Cara hielo",
                 "region": "Galar",
                 "descripcion" : "Eiscue es un Pokémon de tipo hielo introducido en la octava generación. La habilidad de Eiscue, Cara de Hielo; cuando Eiscue presenta su forma Cara de Hielo y tiene la cabeza congelada, el hielo lo protegerá del daño de un único ataque físico. Tras el ataque, el hielo se rompe y Eiscue cambia a la forma Cara Deshielo. Recuperará su forma Cara de Hielo durante el combate, sin embargo, tanto si comienza a granizar mientras esté combatiendo como si regresa al terreno de combate con este tiempo atmosférico. La Defensa y la Defensa Especial de Eiscue en forma Cara Deshielo bajan en comparación con la forma Cara de Hielo, aunque, por otro lado, su Velocidad aumenta al perder ese peso. Absorbe el daño de un ataque físico con el hielo de la cabeza, tras lo cual cambia de forma. El hielo se regenerará la próxima vez que granice.",
-                "ruta" :"/assets/pokeimages/"  
+                "ruta" :"/assets/pokeimages/Eiscue.webp" , 
+                "icono": "/assets/pokeimages/Eiscue_SL.webp"
+
             }
 
  ] 

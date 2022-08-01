@@ -1,6 +1,9 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>regiones</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Regiones</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -9,7 +12,8 @@
     <ion-list-header>
       <h2><strong> Elige una región</strong></h2>
     </ion-list-header> 
-    
+   
+
     <ion-item   *ngFor="let region of regiones" [routerLink]="['/regioninfo', region.id]" >
       <ion-icon name="locate-outline"></ion-icon>
       <ion-label >
