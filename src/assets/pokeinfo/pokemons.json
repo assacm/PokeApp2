@@ -5,7 +5,7 @@
                 "numero": "001" ,
                 "nombre" : "Bulbasaur",
                 "especie" : "Semilla",
-                "tipo" : ["assets/pokeimages/Tipo_planta.webp","assets/pokeimages/Tipo_veneno.webp"],
+                "tipo" : ["/assets/pokeimages/Tipo_planta.webp","/assets/pokeimages/Tipo_veneno.webp"],
                 "habilidad" : "Espesura",
                 "oculta" : "Clorofila",
                 "region": "Kanto",
@@ -110,7 +110,7 @@
                 "tipo" : ["/assets/pokeimages/Tipo_lucha.webp", "/assets/pokeimages/Tipo_acero.webp"],
                 "habilidad" : "Impasible, Foco interno",
                 "oculta" : "Justiciero",
-                "region" : "Sinnoh",
+                "region" : {"nombre": "Sinnoh", "id":0},
                 "descripcion" : "Lucario es un Pokémon de tipo lucha/acero introducido en la cuarta generación. Es la evolución de Riolu. Lucario tiene una habilidad especial conocida como vista aural que le permite ver el aura de las personas y de los Pokémon, con lo que también puede detectar dónde se encuentran. Además, gracias a esta habilidad tiene un movimiento característico, llamado esfera aural, que nunca falla. Comprende el lenguaje humano, aunque aparentemente estas características no se dan en todos los Lucario desde el principio. En la parte superior de sus manos, Lucario tiene unos pinchos que se pueden transformar en unas grandes garras que usa para atacar.",
                 "ruta" : "/assets/pokeimages/Lucario.webp" ,
                 "icono": "/assets/pokeimages/Lucario_XY.webp"

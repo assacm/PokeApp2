@@ -20,8 +20,8 @@
         </ion-avatar>
         <ion-label>
           <h2><b>{{poke.nombre}}</b></h2>
-          <img src="{{poke.tipo[0]}}">
           
+       <img *ngFor="let tipo of poke.tipo" src="{{tipo}}"> 
         </ion-label>
       </ion-item>
       
