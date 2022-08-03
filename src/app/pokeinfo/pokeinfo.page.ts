@@ -20,7 +20,8 @@ export class PokeinfoPage implements OnInit {
   descripcion:string;
   ruta:any=[];
   icono:string;
-  pokemons:any=[];
+  pokemons:any=[]; 
+  idRegion:any;
   constructor(private activatedRoute : ActivatedRoute,  private http: HttpClient) { }
 
   ngOnInit() {
@@ -39,6 +40,7 @@ export class PokeinfoPage implements OnInit {
       this.descripcion=this.pokemons[this.id].descripcion;
       this.ruta=this.pokemons[this.id].ruta;
       this.icono= this.pokemons[this.id].icono;
+      this.idRegion=this.selectedRegion(this.region);
             })
   }
   getPokemons(){
@@ -47,5 +49,18 @@ export class PokeinfoPage implements OnInit {
       map((res : any) => {return res.poke;})
          )
 
+  }
+  selectedRegion(region:String){
+    switch(region){
+      case "Kanto":{this.idRegion=0; break;}
+      case "Johto":{this.idRegion=1; break;}
+      case "Hoenn":{this.idRegion=2; break;}
+      case "Sinnoh":{this.idRegion=3; break;}
+      case "Teselia":{this.idRegion=4; break;}
+      case "Kalos":{this.idRegion=5; break;}
+      case "Alola":{this.idRegion=6; break;}
+      case "Galar":{this.idRegion=7; break;}
+    }
+    return this.idRegion;
   }
 }

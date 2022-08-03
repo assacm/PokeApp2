@@ -4,7 +4,7 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>Pokemon</ion-title>
+    <ion-title><b>Pokémon</b></ion-title>
   </ion-toolbar>
 </ion-header>
 <ion-content>
@@ -12,12 +12,87 @@
   <ion-card>
     <ion-card-header>
       <img src="{{ruta}}" />
-      <ion-card-title>{{nombre}}</ion-card-title>
+      <ion-card-title><b>{{nombre}}</b></ion-card-title>
     </ion-card-header>
     <ion-card-content>
       <div>{{descripcion}}</div>
-      <div> <ion-button >{{region}} </ion-button></div>
+      <div> </div>
       
     </ion-card-content>
   </ion-card>
+  <ion-card>
+    <ion-grid >
+        <ion-row>
+          <ion-col>
+            <ion-item >
+              <ion-label>
+              <b>Número </b>  {{numero}} 
+              </ion-label>
+            </ion-item> 
+           </ion-col>
+           <ion-col>
+            <ion-item >
+              <ion-label>
+                <b>Nombre </b>  {{nombre}} 
+                </ion-label>
+            </ion-item> 
+           </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-item >
+              <ion-label>
+                <b>Especie </b>  {{especie}} 
+                </ion-label>
+            </ion-item> 
+           </ion-col>
+           <ion-col>
+            <ion-item >
+              <ion-label>
+                <b>Tipo </b>  
+                </ion-label>
+                <img *ngFor="let tip of tipo" src="{{tip}}">
+            </ion-item> 
+           </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-item >
+              <ion-label>
+              <b>Habilidad</b>  {{habilidad}} 
+              </ion-label>
+            </ion-item> 
+           </ion-col>
+           <ion-col>
+            <ion-item >
+              <ion-label>
+                <b>Hab. Oculta </b>  {{oculta}} 
+                </ion-label>
+            </ion-item> 
+           </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-item >
+              <ion-label>
+                <h2><b>Región 
+                  <ion-button [routerLink]="['/regioninfo', idRegion]" >{{region}} </ion-button>
+                </b></h2>
+              </ion-label>
+            </ion-item> 
+           </ion-col>
+        </ion-row>
+    </ion-grid>
+  </ion-card>
+
+
+  <!-- List Header with Outline Button
+<ion-card>
+    </ion-card-content>
+      <ion-list>
+         <ion-item> <ion-label> </ion-label></ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+ -->
 </ion-content>
